@@ -1,0 +1,16 @@
+.slogan {
+    width: 70%;
+    background-color: rgba(255, 235, 205, 0.864);
+    /* height: 150px; */
+    margin: 5% auto;
+    text-align: center;
+    padding: 5%;
+}
+
+.slogan h1 {
+    font-family: cursive;
+}
+
+.slogan p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

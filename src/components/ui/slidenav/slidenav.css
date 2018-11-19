@@ -1,0 +1,26 @@
+.slidenav {
+    background-color: black;
+    width: 50%;
+    position: fixed;
+    transform: translate(200%, 60px);
+    transition: transform .2s;
+    text-align: center;
+
+}
+
+.slidenav ul {
+    list-style-type: none;
+}
+
+.slidenav li {
+    padding: 5% 0;
+}
+
+.slidenav a {
+    color: white;
+    text-decoration: none;
+}
+
+.showslide {
+    transform: translate(100%, 60px);
+}

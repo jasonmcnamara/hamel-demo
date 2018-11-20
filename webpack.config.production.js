@@ -69,7 +69,7 @@ module.exports = {
             meta: {
                 viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'
             },
-            favicon: `./src/images/favicon.ico`;
+            favicon: `./src/images/favicon.ico`
         })
     ]
 }

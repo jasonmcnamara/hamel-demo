@@ -24,7 +24,7 @@
     "build-dist": "webpack -p  --config webpack.config.production.js",
     "start": "webpack-dev-server",
     "start-http": "http-server dist-build",
-    "heroku-postbuild": "npm install --only=dev && npm run build-dist"
+    "heroku-postbuild": " npm run build-dist"
   },
   "author": "",
   "license": "ISC",

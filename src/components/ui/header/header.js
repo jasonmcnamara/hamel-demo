@@ -3,6 +3,8 @@ import styles from './header.css';
 import navigation from '../navigation/navigation';
 import navbtn from '../navbtn/navbtn';
 
+import coffeepic from '../../../images/CoffeePic.jpg';
+
 const header = (()=>{
     const body = document.querySelector('body');
     const header = document.createElement('div');
@@ -13,6 +15,7 @@ const header = (()=>{
     const headerlogo = document.createElement('div');
     headerlogo.classList.add(styles.headerlogo);
     headerlogo.classList.add(styles.test);
+    headerlogo.style.backgroundImage = `url(${coffeepic})`;
     // headerlogo.textContent = 'Logo';
     
     const headerlogolink = document.createElement('a');

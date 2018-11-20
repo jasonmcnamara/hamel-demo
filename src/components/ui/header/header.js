@@ -3,7 +3,7 @@ import styles from './header.css';
 import navigation from '../navigation/navigation';
 import navbtn from '../navbtn/navbtn';
 
-import coffeepic from '../../../images/CoffeePic.jpg';
+import coffeepic from '../../images/CoffeePic.jpg';
 
 const header = (()=>{
     const body = document.querySelector('body');

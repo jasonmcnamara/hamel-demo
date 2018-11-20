@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-dist": "webpack  --config webpack.config.production.js",
-    "start": "webpack-dev-server",
+    "start": "webpack  --config webpack.config.production.js",
+    "start-dev": "webpack-dev-server",
     "start-http": "http-server dist-build",
     "heroku-postbuild": "npm install --only=dev && npm install && npm run build-dist"
   },

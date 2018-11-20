@@ -21,7 +21,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-dist": "webpack -p  --config ./webpack.config.production.js",
-    "start": "node main.js",
+    "start": "http-server dist-build",
     "start-http": "http-server dist-build",
     "heroku-postbuild": " npm install && npm run build-dist"
   },

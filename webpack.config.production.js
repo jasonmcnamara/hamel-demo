@@ -68,7 +68,8 @@ module.exports = {
             title: 'Joe Page Demo',
             meta: {
                 viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no'
-            }
+            },
+            favicon: ''
         })
     ]
 }
